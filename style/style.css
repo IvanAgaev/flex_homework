@@ -1,0 +1,243 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ .wrapper-header{
+    background-color: #020509;
+    
+}
+.header{
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D4DDE1;
+
+    
+
+}
+.logo a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    color: #D4DDE1;
+    text-transform: uppercase;
+    padding: 34px 0 35px 0;
+}
+.menu{
+    display: flex;
+    column-gap:  42px;
+    padding: 39px 0 40px 0;
+}
+
+.menu li a.active{
+    color: #FF0038;
+    font-weight: 500;
+}
+.menu li a:hover{
+    color: #FF0038;
+    font-weight: 500;
+}
+.wrapper-firstmain{
+    background-color: rgba(255, 206, 56, 0.05);
+    padding: 191px 0 0 0;
+    
+} 
+.width{
+    width: 1320px;
+}
+.first-main{
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+h1.title {
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+color: #020509;
+line-height: 79px;
+
+
+
+}
+.sometext1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.25px;
+    width: 540px;
+    color: rgba(114, 114, 114, 1);
+    padding: 11px 0 0 0;
+}
+button{
+    width: 225px;
+    
+    background: #FFCE38;
+    border-radius: 4px;
+    padding: 24px 37px 24px 45px;
+    
+}
+.button-text {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(2, 5, 9, 1);
+    
+}
+.button_cont{
+padding: 45px 0 181px 0;
+}
+.wrapper_secondmain{
+    background: rgba(0, 207, 250, 0.05);
+    
+}
+.secondmain{
+   
+    margin: 0 auto;
+    
+}
+.abtme{
+    text-align: center;
+    width: 540px;
+    margin: 0 auto;
+    padding: 84px 10px 85px 10px;
+}
+.title h2 {
+    color: #020509;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+}  
+.sometxtabtm{
+    padding: 65px 0 0 0; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.25px;
+    width: 540px;
+    color: rgba(114, 114, 114, 1);
+
+}
+.wrappper_numbers{
+    background-color: #020509;
+} 
+.numbers{
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.block_list{
+    display: flex;
+    padding: 83px 0 82px 0;
+    justify-content: space-between;
+    column-gap: 110px;
+}
+.block_list li img{
+    width: 122px;
+    height: 85px;
+}
+.wrapper-thirdmain{
+    background: rgba(0, 207, 250, 0.05);
+    padding: 84px 0 0 0;
+} 
+.thirdmain{
+    margin: 0 auto;
+}
+.how_iwork{
+    text-align: center;
+    width: 540px;
+    margin: 0 auto;
+    padding-bottom: 84px;
+
+}
+.image{
+    width: 1200px;
+   height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 69px 0;
+}
+.center_button{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.button_cont2{
+padding: 69px 0 69px 0;
+}
+.wrapper_footer{
+    background-color: #020509;   
+}
+.footer{
+   
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px 10px;
+
+}
+.foottxt{
+   color: #FFFFFF;
+   font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+} 
+.main{
+    flex-grow: 1;
+}
